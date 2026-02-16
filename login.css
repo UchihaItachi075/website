@@ -1,0 +1,89 @@
+.login_page{
+    margin-top: 180px;
+    width: 504px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-color: midnightblue;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 300px;
+}
+
+.l{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+body{
+    background-image: url(https://i.pinimg.com/736x/38/e2/45/38e24583556ec368140620174068f71a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.username{
+    height: 20px;
+    width: 300px;
+    border-radius: 20px;
+    border-color: midnightblue;
+    border-width: 3px;
+}
+
+.password{
+    height: 20px;
+    width: 300px;
+    border-radius: 20px;
+    border-color: midnightblue;
+    border-width: 3px;
+}
+
+.login_button{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: midnightblue;
+    color: white;
+    font-family: 'Jacquard 24', cursive;
+    font-family: 'Playwrite CU Guides', cursive;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.login_button:hover{
+    background-color: white;
+    color: midnightblue;
+    border-color: midnightblue;
+    border-radius: 20px;
+}
+
+.login_button:active{
+    background-color: midnightblue;
+    color: white;
+    border-color: midnightblue;
+    border-radius: 20px;
+}
+
+.sign{
+    margin-bottom: 35px;
+    width: 50px;
+    height: 20px;
+    color: white;
+    border-color: midnightblue;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: midnightblue;
+}
+
+.sign:active{
+    color: lightblue;
+}
+
+
+

@@ -1,0 +1,150 @@
+.book_image{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    border-color: midnightblue;
+    border-style: solid;
+}
+
+body{
+    height: 1000px;
+    background-image: url(https://i.pinimg.com/736x/67/df/e3/67dfe330fe8f9aafc63cfaa118a6f76b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.your_purchases{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.purchase{
+    width: 100px;
+    margin-left: 35px;
+    height: 760px;
+    color: white;
+    display: flex;
+    border-width: 3px;
+    background-color:midnightblue;
+    border-color: midnightblue;
+    border-radius: 20px;
+    border-style: solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.details{
+    margin-right: 150px;
+    color: white;
+}
+
+.added_items{
+    text-decoration: underline;
+    margin-bottom:20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.hi{
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: midnightblue;
+    color: white;
+    font-family: 'Jacquard 24', cursive;
+    font-family: 'Playwrite CU Guides', cursive;
+    cursor: pointer
+}
+
+.button:hover{
+    background-color: white;
+    color: midnightblue;
+    border-color: midnightblue;
+    border-radius: 20px;
+}
+
+.button:active{
+     background-color: midnightblue;
+    color: white;
+    border-color: midnightblue;
+    border-radius: 20px;
+}
+
+.books{
+    height: 700px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.harry_potter,
+.hunger_games{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.harry_details{
+    width: 400px;
+}
+
+.sumup{
+    margin-left: 44px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary{
+    text-align: center;
+}
+
+.checkout{
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: midnightblue;
+    color: white;
+    font-family: 'Jacquard 24', cursive;
+    font-family: 'Playwrite CU Guides', cursive;
+    cursor: pointer;
+}
+
+.checkout:hover{
+    background-color: white;
+    color: midnightblue;
+    border-color: midnightblue;
+    border-radius: 20px;
+}
+
+.checkout:active{
+    background-color: midnightblue;
+    color: white;
+    border-color: midnightblue;
+    border-radius: 20px;
+}
+
+.suzune_collins{
+    margin-right: 200px;
+}
+
+.stock{
+    color: lightblue;
+}

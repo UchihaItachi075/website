@@ -1,0 +1,148 @@
+body{
+    height: 1200px;
+    background-image: url(https://i.pinimg.com/1200x/aa/95/a3/aa95a315c5d0e1258cce42b17d38ac8e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    margin-left:70px;
+    height: 84px;
+}
+
+.d{
+    color: white;
+    flex: 1;
+    text-align: center;
+    background-color: midnightblue;
+    height: 21px;
+    text-align: center;
+    border-width: 3px;
+    border-radius: 84px;
+    border-style: solid;
+    border-color: midnightblue;
+}
+
+.d:hover{
+    background-color: white;
+    color: midnightblue;
+    border-color: midnightblue;
+    border-radius: 84px;
+}
+
+.d:active{
+    background-color: midnightblue;
+    color: white;
+    border-color: midnightblue;
+    border-radius: 84px;
+}
+
+.search_bar{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+
+.search{
+    border-radius: 20px;
+    color: white;
+    background-color: midnightblue;
+    height: 30px;
+    border-color: midnightblue;
+}
+
+.name{
+    padding-top: 10px;
+    padding-left: 15px;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: midnightblue;
+    color: white;
+    font-family: 'Jacquard 24', cursive;
+    font-family: 'Playwrite CU Guides', cursive;
+    cursor: pointer;
+}
+
+h1{
+    margin-left: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    background-color: midnightblue;
+    color: white;
+    font-family: 'Jacquard 24', cursive;
+    font-family: 'Playwrite CU Guides', cursive;
+}
+
+.book_image{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    border-color: midnightblue;
+    border-style: solid;
+}
+
+.book_card{
+    display: flex;
+    flex-direction: column;
+}
+
+.book_grid{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.book_column{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: midnightblue;
+    text-align: center;
+    border-width: 3px;
+    border-radius: 84px;
+    border-style: solid;
+    border-color: midnightblue;
+}
+
+.cart:hover{
+    background-color: white;
+    color: midnightblue;
+    border-color: midnightblue;
+    border-radius: 84px;
+}
+
+.cart:active{
+    background-color: midnightblue;
+    color: white;
+    border-color: midnightblue;
+    border-radius: 84px;
+}
